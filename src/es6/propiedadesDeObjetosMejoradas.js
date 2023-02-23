@@ -58,6 +58,23 @@ let listOfNames2 = personas.map (item => console.log(item.name));
 //otra forma de utilizar ARROW FUNCTIONS es declaramos primero un espacio de memoria reservado (const, var, let)
 // seguido una asignacion de parametros (name, age, country)
 // y finalmente la flecha con un bloque de codigo especifico  ( =>{...codigo...} ) :
-// const listOfPerson = (dato1, dato2, dato3) => { ... };
 
+var dato1= '1';
+var dato2= 2;
+var dato3= 3;
+
+const numero6 = (dato1, dato2, dato3) => { 
+    
+    console.log(dato1, dato3);
+
+ };
+
+const numero1 = dato1 => {
+    console.log(dato1);
+};
+
+// tambien se puede generar una constante como la sigyuiente en la cual se simplifica mucho
+//la sintaxis de una funcion :
+
+const cuadrado = num => num*num;
 
